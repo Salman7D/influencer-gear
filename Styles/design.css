@@ -150,11 +150,45 @@ h2{
 
 /* footer styles */
 
+footer{
+    background: #0A0826;
+}
+
+.ft-title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 3px;
+
+}
+
+.ft-cr{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.ft-description{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer-information{
+    display: flex;
+    justify-content: center;
+    
+}
 
 
+.footer-information .ft-img{
+    margin-left: 25px;
+}
 
-
-
+.footer-information .ft-img img{
+    margin-left: 16px;
+}
 
 
 /* small devices */
