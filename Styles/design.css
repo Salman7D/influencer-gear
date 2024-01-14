@@ -110,12 +110,59 @@ nav li a{
 
 /* main styles */
 
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features img{
+    margin-left: 165px;
+}
+
+.features button{
+    border-radius: 0;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.features-title{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    
+}
+
+.features-description{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700; 
+    width: 500px;
+    margin-bottom: 16px;
+}
+
+
+
+/* footer styles */
+
+
+
+
+
 
 
 
 /* small devices */
 
 @media screen and (max-width: 576px){
+
+    
+
     nav{
         flex-direction: column;
         padding: 10px;
@@ -162,6 +209,29 @@ nav li a{
         margin-left: 0;
     } 
 
+    .features{
+        flex-direction: column;
+       
+    }
+
+    .features img{
+        margin-left: 0px;
+    }
+
+    .features .features-trailler{
+        margin-left: 30px;
+    }
+
+    .features .features-title{
+        width: 400px;  
+        
+    }
+
+    .features .features-description{
+        width: 350px;
+    }
+
+
 }
 
 
@@ -187,5 +257,14 @@ nav li a{
     .images-icons{
         justify-content: space-evenly;
         gap: 20px;
+    }
+
+    .features{
+        flex-direction: column;
+        
+    }
+
+    .features img{
+        margin-left: 0;
     }
 }
