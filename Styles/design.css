@@ -21,6 +21,7 @@ nav > ul{
 
 }
 
+
 nav li a{
     text-decoration: none;
 }
@@ -36,5 +37,42 @@ nav li a{
     color: #3A3A3A;
     font-size: 16px;
     font-weight: 600; 
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 90px 120px;
+}
+
+
+.banner-title{
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+
+}
+
+.banner-description{
+    width: 500px;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px 0;
+} 
+
+.btn-primary{
+
+    border-radius: 41px;
+    border: none;
+    background: #E02C6D; 
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 24px;
+    
+
 
 }
