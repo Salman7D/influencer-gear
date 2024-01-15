@@ -288,7 +288,7 @@ footer{
     } 
 
     .features{
-        flex-direction: column;
+        flex-direction: column-reverse;
        
     }
 
@@ -309,6 +309,13 @@ footer{
         width: 350px;
     }
 
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .first-img , .second-img, .third-img, .fourth-img, .fifth-img, .sixth-img, .seventh-img, .eighth-img, .ninth-img{
+        margin-left: 40px;
+    }
 
 }
 
@@ -344,5 +351,14 @@ footer{
 
     .features img{
         margin-left: 0;
+    }
+
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
+    .first-img , .second-img, .third-img, .fourth-img, .fifth-img, .sixth-img, .seventh-img, .eighth-img, .ninth-img{
+        margin-left: 40px;
     }
 }
