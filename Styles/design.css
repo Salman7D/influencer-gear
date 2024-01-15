@@ -115,6 +115,49 @@ h2{
     margin-bottom: 30px;
 }
 
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 30px;  
+
+       
+}
+
+
+.first-img , .second-img, .third-img, .fourth-img, .fifth-img, .sixth-img, .seventh-img, .eighth-img, .ninth-img{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    height: 476px;
+    padding: 15px;
+    margin-left: 200px;
+    
+}
+
+.first-img .title, .second-img .title, .third-img .title, .fourth-img .title, .fifth-img .title, .sixth-img .title, .seventh-img .title, .eighth-img .title, .ninth-img .title{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+.first-img .price, .second-img .price, .third-img .price, .fourth-img .price, .fifth-img .price, .sixth-img .price, .seventh-img .price, .eighth-img .price, .ninth-img .price{
+    color:rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+
+} 
+
+.first-img .description, .second-img .description, .third-img .description, .fourth-img .description, .fifth-img .description, .sixth-img .description, .seventh-img .description, .eighth-img .description, .ninth-img .description{
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+    width: 196px;
+}
+
+
 .features img{
     margin-left: 165px;
 }
